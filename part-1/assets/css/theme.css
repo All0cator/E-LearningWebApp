@@ -1,0 +1,15 @@
+:root {
+    --page-element-border-color: #3E5F44;
+    --page-element-background-color: #93DA97;
+    --text-transition-start: #FFFFFF;
+    --text-transition-finish: #000000;
+    --nav-item-background: #5E936C;
+    --nav-item-background-hovered: #E8FFD7;
+}
+
+.page {
+    font:
+      1.2em Robotto,
+      arial,
+      sans-serif;
+}
