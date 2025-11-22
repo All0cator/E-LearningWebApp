@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    max-width: 1024px;
+    margin: 0 auto;
+    font:
+      1.2em Robotto,
+      arial,
+      sans-serif;
+}
+
+.page > * {
+    border: 2px solid #82cc69;
+    background-color: #5e9b4a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.page {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(10, [col-start] 1fr);
+}
+
+/* Mobile Screen 1 column*/
+
+.page > * {
+    grid-column: col-start / span 10;
+}
+
+/* Tablet Screen 2 columns */
+
+@media (min-width:500px) {
+    .main-header {
+        grid-column: col-start / span 10;
+        grid-row: 1;
+    }
+    .main-nav {
+        grid-column: col-start / span 10;
+        grid-row: 2;
+
+    }
+    .main-content {
+        grid-column: col-start / span 7;
+        grid-row: 3;
+    }
+    .main-sidebar {
+        grid-column: col-start 8 / span 3;
+        grid-row: 3;
+    }
+    .main-footer {
+        grid-column: col-start / span 10;
+        grid-row: 4;
+    }
+
+    nav ul {
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+}
+
+/* Desktop Screen 3 columns */
+
+@media (min-width:700px) {
+    .main-header {
+        grid-column: col-start / span 10;
+        grid-row: 1;
+    }
+    .main-nav {
+        grid-column: col-start / span 2;
+        grid-row: 2;
+    }
+    .main-content {
+        grid-column: col-start 3 / span 5;
+        grid-row: 2;
+    }
+    .main-sidebar {
+        grid-column: col-start 8 / span 3;
+        grid-row: 2;
+    }
+    .main-footer {
+        grid-column: col-start / span 10;
+        grid-row: 4;
+    }
+
+    nav ul {
+        flex-flow: column nowrap;
+        justify-content: start;
+    }
+}
