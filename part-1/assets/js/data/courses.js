@@ -1,7 +1,8 @@
 var courses = [
     {
         id: "1",
-        img: "assets/img/course_image.png",
+        type: "Course",
+        img: ["assets/img/course-image-large.png", "assets/img/course-image-medium.png", "assets/img/course-image-small.png"],
         title: "C++",
         category: "Προγραμματισμός",
         semester: "1o έτος",
@@ -10,7 +11,8 @@ var courses = [
     },
     {
         id: "2",
-        img: "assets/img/course_image.png",
+        type: "Course",
+        img: ["assets/img/course-image-large.png", "assets/img/course-image-medium.png", "assets/img/course-image-small.png"],
         title: "Κυβερνοασφάλεια",
         category: "IT",
         semester: "2o έτος",
@@ -19,7 +21,8 @@ var courses = [
     },
     {
         id: "3",
-        img: "assets/img/course_image.png",
+        type: "Course",
+        img: ["assets/img/course-image-large.png", "assets/img/course-image-medium.png", "assets/img/course-image-small.png"],
         title: "Αρχιτεκτονική Υπολογιστών",
         category: "Ηλεκτρονικοί Υπολογιστές",
         semester: "2o έτος",
@@ -28,7 +31,8 @@ var courses = [
     },
     {
         id: "4",
-        img: "assets/img/course_image.png",
+        type: "Course",
+        img: ["assets/img/course-image-large.png", "assets/img/course-image-medium.png", "assets/img/course-image-small.png"],
         title: "Σχεδίαση Ψηφιακών Συστημάτων",
         category: "Ηλεκτρονικοί Υπολογιστές",
         semester: "2o έτος",
@@ -37,7 +41,8 @@ var courses = [
     },
     {
         id: "5",
-        img: "assets/img/course_image.png",
+        type: "Course",
+        img: ["assets/img/course-image-large.png", "assets/img/course-image-medium.png", "assets/img/course-image-small.png"],
         title: "Υπολογιστικά Μαθηματικά",
         category: "Μαθηματικά",
         semester: "3o έτος",

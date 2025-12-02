@@ -1,7 +1,8 @@
 var books = [
     {
         id: "1",
-        img: "assets/img/book_image.png",
+        type: "Book",
+        img: ["assets/img/book-icon-large.png", "assets/img/book-icon-medium.png", "assets/img/book-icon-small.png"],
         authors: ["Μάκης Α.", "Γιάννης Φ."],
         title: "C++ Έκδοση 2η",
         description: "Προγραμματισμός Υπολογιστών με C++ μια ολοκληρωμένη προσέγγιση.",
@@ -10,7 +11,8 @@ var books = [
     },
     {
         id: "2",
-        img: "assets/img/book_image.png",
+        type: "Book",
+        img: ["assets/img/book-icon-large.png", "assets/img/book-icon-medium.png", "assets/img/book-icon-small.png"],
         authors: ["Αντώνης Α."],
         title: "Ασφάλεια Υπολογιστών 1η Έκδοση",
         description: "Εισαγωγή στην ασφάλεια υπολογιστών.",
@@ -19,7 +21,8 @@ var books = [
     },
     {
         id: "3",
-        img: "assets/img/book_image.png",
+        type: "Book",
+        img: ["assets/img/book-icon-large.png", "assets/img/book-icon-medium.png", "assets/img/book-icon-small.png"],
         authors: ["Κατερίνα Π."],
         title: "Αριθμητική Ανάλυση",
         description: "Εκτέλεση πράξεων κινητής υποδιαστολής, μέθοδοι αριθμητικής επίλυσης.",
@@ -28,7 +31,8 @@ var books = [
     },
     {
         id: "4",
-        img: "assets/img/book_image.png",
+        type: "Book",
+        img: ["assets/img/book-icon-large.png", "assets/img/book-icon-medium.png", "assets/img/book-icon-small.png"],
         authors: ["Παύλος Ψ."],
         title: "Σχεδίαση Ψηφιακών Κυκλωμάτων",
         description: "Στο βιβλίο αυτό παρουσιάζονται οι τρόποι με τους οποίους υλοποιούνται με την βοήθεια Η/Υ ψηφιακά κυκλώματα",
@@ -37,7 +41,8 @@ var books = [
     },
     {
         id: "5",
-        img: "assets/img/book_image.png",
+        type: "Book",
+        img: ["assets/img/book-icon-large.png", "assets/img/book-icon-medium.png", "assets/img/book-icon-small.png"],
         authors: ["Μάριος Υ.", "Πάνος Ο."],
         title: "Εφαρμογές στον Ιστό",
         description: "Θεωρία τεχνολογίας ιστού, εισαγωγή στην javascript, HTML, CSS.",
@@ -46,7 +51,8 @@ var books = [
     },
     {
         id: "6",
-        img: "assets/img/book_image.png",
+        type: "Book",
+        img: ["assets/img/book-icon-large.png", "assets/img/book-icon-medium.png", "assets/img/book-icon-small.png"],
         authors: ["Ευαγγελία Λ.", "Σπύρος Ζ.", "Μάρκος Ε."],
         title: "Προγραμματισμός με Python 3η Έκδοση",
         description: "Εισαγωγή στην Python.",
@@ -55,7 +61,8 @@ var books = [
     },
     {
         id: "7",
-        img: "assets/img/book_image.png",
+        type: "Book",
+        img: ["assets/img/book-icon-large.png", "assets/img/book-icon-medium.png", "assets/img/book-icon-small.png"],
         authors: ["Θεώδορος Κ."],
         title: "Πιθανότητες ΙΙ 1ος Τόμος",
         description: "Εμβάθυνση στο πεδίο των πιθανοτήτων.",
