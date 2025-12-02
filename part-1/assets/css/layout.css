@@ -1,3 +1,5 @@
+/* Sidebar Links */
+
 .main-sidebar, .main-sidebar ul {
     position: relative;
     display: flex;
@@ -44,6 +46,8 @@
     padding-left: 5px;
 }
 
+/* Content Grid (where cards are placed) */
+
 .main-section {
     display: grid;
     gap: 20px;
@@ -71,58 +75,7 @@
     position: relative;
 }
 
-.image-div {
-    position: relative;
-}
-
-
-
-#personal-details-form,
-#account-details-form,
-#interests-form, 
-#personal-details-form *, 
-#account-details-form *,
-#interests-form *{
-    position: relative;
-    bottom:auto;
-    display: flex;
-    flex-direction: row;
-    gap:10px;
-}
-
-legend {
-    font-size: 1.2em;
-    width: 100%;
-}
-
-#personal-details-form, #account-details-form, #interests-form{
-    flex-direction:column;
-    padding-bottom: 20px;
-}
-
-#div-label-category {
-    flex-direction: column;
-}
-
-#div-label-category > *{
-    gap: 0px;
-    padding-bottom: 0px;
-}
-
-.image-div a {
-    position:absolute;
-    left: 0;
-    top: 0; 
-    width: 100%;
-    height: 100%;
-}
-
-img {
-    size: 0;
-    width: 100%;
-    height:auto;
-    object-fit : contain;
-}
+/* Navigation Menu */
 
 nav {
     min-width: fit-content;
@@ -165,6 +118,7 @@ li a:hover {
     transition: background-color 400ms ease-in;
 }
 
+/* Page */
 
 .page {
     max-width: 1024px;
@@ -182,11 +136,6 @@ li a:hover {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(10, [col-start] 1fr);
-}
-
-video {
-    width: 100%;
-    height: auto;
 }
 
 /* Mobile Screen 1 column*/
@@ -236,14 +185,6 @@ video {
 
     .main-section .main-section-title {
         grid-column: col-start / span 2;
-    }
-
-    .main-section article:nth-child(1) {
-        grid-column: col-start / span 1;
-    }
-
-    .main-section article:nth-child(2) {
-        grid-column: col-start 1 / span 1;
     }
 
     .main-section #main-article-form {
@@ -296,18 +237,6 @@ video {
 
     .main-section .main-section-title {
         grid-column: col-start / span 3;
-    }
-
-    .main-section article:nth-child(1) {
-        grid-column: col-start / span 1;
-    }
-
-    .main-section article:nth-child(2) {
-        grid-column: col-start 1 / span 1;
-    }
-
-    .main-section article:nth-child(3) {
-        grid-column: col-start 2 / span 1;
     }
 
     .main-section #main-article-form {
