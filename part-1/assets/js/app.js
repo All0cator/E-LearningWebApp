@@ -316,7 +316,7 @@ function InitializeAbout() {
     cardPerson2.id = "card-person-2";
 
     CreateCardPerson("2", ["assets/img/user-image-large.png" ,"assets/img/user-image-medium.png" , "assets/img/user-image-small.png"], 
-        "p3220202", "p3220202@aueb.gr", cardPerson2);
+        "p3210100", "p3210100@aueb.gr", cardPerson2);
 
     // cardPerson1 already appended to main-section
     document.getElementsByClassName("main-section")[0].appendChild(cardPerson2);
